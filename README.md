@@ -12,6 +12,7 @@ Explore Commerce brings commerce into everyday life. Our mission is to make buyi
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Documentation](#documentation)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -42,6 +43,13 @@ See the [User Story Map](docs/product-owner/User-Story-Map.md) for backlog index
 | C4 model | [docs/developer/c4-model/](docs/developer/c4-model/) |
 | Glossary | [docs/Glossary.md](docs/Glossary.md) |
 | User story map | [docs/product-owner/User-Story-Map.md](docs/product-owner/User-Story-Map.md) |
+| Contributing | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Code of Conduct | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| Security | [SECURITY.md](SECURITY.md) |
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Participation is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
