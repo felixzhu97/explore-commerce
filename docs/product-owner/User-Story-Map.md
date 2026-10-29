@@ -43,6 +43,7 @@ journey
 | E1 店面 | [E1-storefront.md](./user-stories/E1-storefront.md) | US-01 | 规划中 |
 | E2 结账 | [E2-checkout.md](./user-stories/E2-checkout.md) | US-02 | 规划中 |
 | E3 管理 | [E3-admin.md](./user-stories/E3-admin.md) | US-03 | 规划中 |
+| E AI Agent BFF | [E-ai-agent-bff.md](./user-stories/E-ai-agent-bff.md) | US-AI-01 | 已实现 |
 
 ## 参考
 
