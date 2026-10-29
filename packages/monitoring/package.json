@@ -16,7 +16,7 @@
       "require": "./dist/client.js"
     }
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",

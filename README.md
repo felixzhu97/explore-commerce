@@ -1,6 +1,6 @@
 # Explore Commerce
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Architecture](https://img.shields.io/badge/Architecture-C4-blue.svg)](docs/developer/c4-model/)
 [![Next.js](https://img.shields.io/badge/Next.js-web-black.svg)](https://nextjs.org/)
 [![Angular](https://img.shields.io/badge/Angular-admin-red.svg)](https://angular.dev/)
@@ -53,4 +53,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Participation is governed by the [Code o
 
 ## License
 
-[MIT](LICENSE) © 2026 Felix
+[Apache-2.0](LICENSE) © 2026 Felix Zhu
