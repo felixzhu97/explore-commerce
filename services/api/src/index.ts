@@ -11,6 +11,7 @@ import { expressjwt } from 'express-jwt';
 import mongoose from 'mongoose';
 import swaggerUi from 'swagger-ui-express';
 
+import aiAgentRoutes from './routes/ai-agents';
 import cartRoutes from './routes/cart';
 import orderRoutes from './routes/orders';
 import productRoutes from './routes/products';
@@ -94,6 +95,7 @@ app.use('/api/cart', cartRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/recommendations', recommendationRoutes);
+app.use('/api/ai/agents', aiAgentRoutes);
 
 mongoose
   .connect(MONGODB_URI, {
