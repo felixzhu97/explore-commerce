@@ -14,6 +14,7 @@ title: Explore Commerce - 用户故事地图
 | 顾客 | 浏览商品、下单与支付 |
 | 管理员 | 管理商品、订单与用户 |
 | API 调用方 | 经 Commerce BFF 调用 Explore AI Gallery |
+| 跨仓开发者 | 维护订单域统一语言与 C4 |
 
 ## 旅程总览
 
@@ -29,6 +30,9 @@ journey
         处理订单: 4: 管理员
     section 客服 Agent
         经 BFF 询问 Gallery Agent: 4: API 调用方
+    section 领域深化
+        核对订单状态与支付边界: 4: 管理员
+        对齐 Glossary 与领域图: 3: 跨仓开发者
 ```
 
 ## Backbone 故事地图
@@ -41,6 +45,14 @@ journey
 | [US-02](./user-stories/E1-storefront.md#us-02-查看商品详情并加购) 详情加购 | [US-05](./user-stories/E2-checkout.md#us-05-发起支付) 发起支付 | [US-08](./user-stories/E3-admin.md#us-08-处理订单) 处理订单 | |
 | [US-03](./user-stories/E1-storefront.md#us-03-管理购物车) 购物车 | [US-06](./user-stories/E2-checkout.md#us-06-查看结账成功) 成功页 | [US-09](./user-stories/E3-admin.md#us-09-管理用户) 管理用户 | |
 
+### 规划中
+
+| 订单生命周期 | 订单域活文档 |
+|--------------|--------------|
+| [US-11](./user-stories/E5-order-lifecycle.md#us-11-订单仅允许合法状态迁移) 合法状态迁移 | [US-14](./user-stories/E6-order-living-docs.md#us-14-glossary-补齐订单与支付术语) Glossary 订单/支付 |
+| [US-12](./user-stories/E5-order-lifecycle.md#us-12-顾客按规则取消订单) 按规则取消 | [US-15](./user-stories/E6-order-living-docs.md#us-15-订单领域模型图) Domain Model |
+| [US-13](./user-stories/E5-order-lifecycle.md#us-13-支付结果与履约状态可区分) 支付与履约可区分 | [US-16](./user-stories/E6-order-living-docs.md#us-16-结账与支付动态图) Checkout Dynamic |
+
 ## Epic 索引
 
 | Epic | 文件 | 故事 | 状态 |
@@ -49,6 +61,8 @@ journey
 | E2 结账 | [E2-checkout.md](./user-stories/E2-checkout.md) | US-04 – US-06 | 已实现 |
 | E3 管理 | [E3-admin.md](./user-stories/E3-admin.md) | US-07 – US-09 | 已实现 |
 | E4 AI Agent BFF | [E4-ai-agent-bff.md](./user-stories/E4-ai-agent-bff.md) | US-10 | 已实现 |
+| E5 订单生命周期与支付边界 | [E5-order-lifecycle.md](./user-stories/E5-order-lifecycle.md) | US-11 – US-13 | 规划中 |
+| E6 订单域活文档 | [E6-order-living-docs.md](./user-stories/E6-order-living-docs.md) | US-14 – US-16 | 规划中 |
 
 ## 参考
 
