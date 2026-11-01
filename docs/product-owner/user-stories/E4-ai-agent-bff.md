@@ -1,4 +1,4 @@
-# E AI Agent BFF（Agentforce 形态）
+# E4 AI Agent BFF（Agentforce 形态）
 
 ← [用户故事地图](../User-Story-Map.md)
 
@@ -8,7 +8,7 @@
 
 ---
 
-## US-AI-01 经 Commerce 代理调用 Gallery Agent
+## US-10 经 Commerce 代理调用 Gallery Agent
 
 **As a** 已登录的 Commerce API 调用方  
 **I want** 列出并调用 Explore AI Agents  
